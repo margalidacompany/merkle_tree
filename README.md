@@ -13,24 +13,32 @@ The project contains the following scripts:
 
 ### Directory Structure
 The repository should have the following structure:
+
 ├── MT.py 
+
 ├── insert_MT.py 
+
 ├── proof_MT.py 
+
 ├── verify_MT.py 
+
 ├── docs/ # Folder containing the documents to add to the Merkle Tree 
+
 ├── nodes/ # Generated folder containing node hashes 
+
 ├── proof/ # Generated folder containing proof files 
+
 └── merkle_tree.txt # Record of the Merkle Tree structure
 
 
-### ⚙ How to Use
+### How to Use
 
-- 1. Clone the Repository
-- 2. Create your docs/ folder with your documents.
-- 3. Create the Merkle Tree python3 MT.py
-- 4. Add new documents to the tree with python3 insert_MT.py <path_to_new_document>
-- 5. Generate a proof file with python3 proof_MT.py <document_name>
-- 6. verify a document with python3 verify_MT.py <document_path> proof/proof_<document_name>.txt
+1. Clone the Repository
+2. Create your docs/ folder with your documents.
+3. Create the Merkle Tree python3 MT.py
+4. Add new documents to the tree with python3 insert_MT.py <path_to_new_document>
+5. Generate a proof file with python3 proof_MT.py <document_name>
+6. verify a document with python3 verify_MT.py <document_path> proof/proof_<document_name>.txt
 
 
 ### Technical Details
